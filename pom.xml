@@ -223,6 +223,7 @@
         <module>lmdbjni-linux64</module>
         <module>lmdbjni-android</module>
         <module>lmdbjni-win64</module>
+        <module>linux-aarch64</module>
       </modules>
     </profile>
 
@@ -273,6 +274,13 @@
           </plugin>
         </plugins>
       </build>
+    </profile>
+
+    <profile>
+      <id>linux-aarch64</id>
+      <modules>
+        <module>linux-aarch64</module>
+      </modules>
     </profile>
 
     <profile>
